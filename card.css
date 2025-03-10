@@ -1,0 +1,182 @@
+
+.card-section-header {
+   background-color: #E4EBEC;
+   max-width: 500px;
+   margin: -55px auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0 2rem;
+   border-top-left-radius: 80px;
+   border-top-right-radius: 80px;
+}
+
+.card-section-header h4 {
+   color: #0E555B;
+   font-weight: bold;
+   padding-top: .5em;
+}
+
+.card-section-header h2 {
+   color: black;
+   font-weight: bold;
+   margin-bottom: .5em;
+}
+
+.card-section-header p {
+   color: rgb(29, 29, 29);
+   text-align: center;
+}
+
+
+
+
+
+/* CARDS START HERE */
+
+
+
+
+.card-section{
+   max-width: 1440px;
+   margin: 0 auto;
+   padding-top: 6em;
+}
+
+.card {
+   display: flex;
+   justify-content: space-evenly;
+   padding: 2rem 2rem ;
+   border-radius: 20px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   background-color: rgb(248, 248, 248);
+   margin: 2rem 1rem;
+   align-items: center;
+   position: relative;
+   border: 2px solid #0E555B;
+   border-bottom-right-radius: 140px;
+}
+
+.card:hover {
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+   transition: .3s ease-in-out;
+}
+
+.card::before {
+   content: "TOP CASINO"; 
+    position: absolute; 
+    top: -10px; 
+    left: -10px; 
+    background-color: #0E555B; 
+    color: rgb(214, 214, 214); 
+    padding: .6rem;
+    border-radius: 10px;
+    font-size: 1.6em; 
+}
+
+.casino-name{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.stars {
+   color: #FFBC00;
+   font-size: 2rem;
+   margin-bottom: -4rem;
+}
+
+.casino-name img {
+   max-width: 200px;
+}
+
+.casino-name h2 {
+   color: gray;
+   margin-top: -4rem;   
+}
+
+/* LEFT WING */
+
+.casino-details{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.casino-details p {
+   color: gray;
+   margin-top: .3rem;
+}
+
+.green1 {
+   color: #DAE0E0;
+   background-color: #0E555B;
+   font-size: 26px;
+   font-weight: normal;
+   padding: 1rem 4rem;
+   border-top-left-radius: 30px;
+}
+
+.green1:hover {
+   color: #0E555B;
+   background-color: #DAE0E0;
+   transition: .5s ease-in-out;
+}
+
+.greenLight {
+   color: black;
+   background-color: #DAE0E0;
+   font-size: 26px;
+   font-weight: normal;
+   padding: 1rem 4rem;
+   border-bottom-right-radius: 30px;
+   text-wrap: none;
+}
+
+.greenLight:hover {
+   color: #0E555B;
+   background-color: #DAE0E0;
+   transition: .5s ease-in-out;
+}
+
+/* LEFT WING */
+/* RIGHT WING */
+
+.casino-tags p{
+   color: rgb(48, 48, 48);
+   font-size: 20px;
+   margin: 1rem 0;
+}
+
+
+.casino-cta a {
+   color: white;
+   background-color: #0E555B;
+   font-size: 20px;
+   padding: 1rem 4rem;
+   margin-top: 1rem;
+   text-decoration: none;;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   border-top-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+
+.casino-cta a:hover {
+   color: #DAE0E0;
+   box-shadow: #0E555B 0px 0px 4px;
+   transition: .3s ease-in-out;
+}
+
+
+@media (max-width: 1023px) {
+   .card {
+      flex-direction: column;
+      margin: 1rem 6rem;
+   }
+}
+
+@media (max-width: 767px) {
+   .card {
+      margin: 1rem 1rem;
+   }
+}

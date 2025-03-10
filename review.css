@@ -1,0 +1,86 @@
+
+.review {
+   max-width: 1440px;
+   margin: 0 auto;
+   position: relative;
+}
+
+.review-header {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 4rem 0 .1rem;
+}
+
+.review-header h2 {
+   font-size: 2.5rem;
+   font-weight: 700;
+   color: #0E555B;
+   text-decoration: underline;
+}
+
+.review-header p {
+   font-size: 1.5rem;
+   color: #6f7070;
+}
+
+.review-content {
+   display: flex;
+   flex-direction: column;
+   max-width: 720px;
+   gap: 5rem;
+   padding-top: 2rem;
+   margin: 0 auto;
+   line-height: 30px;
+   color: #3a3a3a;
+}
+
+.review-content span {
+   font-weight: bold;
+   color: black;
+}
+
+.review-footer {
+   position: absolute;
+   bottom: -50px;
+   right: 50px;
+}
+
+.review-footer img {
+   opacity: .3;
+}
+
+.review-footer1 {
+   position: absolute;
+   top: 900px;
+   right: 50px;
+}
+
+.review-footer1 img {
+   opacity: .3;
+}
+
+.top-review-header {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   padding: 9rem 1rem;
+   position: relative;
+}
+
+.top-review-header h1 {
+   font-size: 3rem;
+   font-weight: 700;
+   color: #0E555B;
+   max-width: 600px;
+   line-height: 50px;
+   margin: 3rem;
+}
+
+.top-review-header p {
+   font-size: 1.5rem;
+   color: #6f7070;
+   max-width: 1200px;
+}
+

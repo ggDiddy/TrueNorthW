@@ -1,0 +1,29 @@
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+}
+
+body{
+   background-color: #E4EBEC;
+}
+
+
+.compass {
+   animation: spin 60s linear infinite;
+   width: 270%;
+}
+
+
+
+
+@keyframes spin {
+   from {
+       transform: rotate(0deg); /* Sākuma punkts - 0 grādi */
+   }
+   to {
+       transform: rotate(360deg); /* Beigu punkts - pilns aplis */
+   }
+}

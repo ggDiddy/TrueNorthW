@@ -1,0 +1,41 @@
+
+.bottom {
+   margin: 0 auto;
+   max-width: 1440px;
+   position: relative;
+   
+}
+
+.flag {
+   max-width: 100px;
+   position: absolute; 
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.bottom-content {
+   padding-top: 15rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 5rem;
+}
+
+.bottom-content p {
+   font-size: 1.2rem;
+   line-height: 30px;
+   color: #3a3a3a;
+   padding: 1.5rem 0;
+}
+
+
+
+
+@media (max-width: 767px) {
+   .bottom-content {
+      grid-template-columns: 1fr;
+      gap: 5rem;
+      padding: 16rem 1rem;
+   }
+   
+}

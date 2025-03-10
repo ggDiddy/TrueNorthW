@@ -1,0 +1,52 @@
+
+.blog-grid {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto 6rem;
+    max-width: 1440px;
+}
+
+.blog-grid a {
+    text-decoration: none;
+    color: black;
+}
+
+.blog-grid a h2 {
+    font-size: 1.7rem;
+    text-decoration: underline;
+    max-width: 400px;
+    margin: 1rem 0;
+}
+
+.blogh2 {
+   font-size: 2rem;
+   font-weight: 700;
+   color: #0E555B;
+   margin: 0 auto;
+   text-align: center;
+   max-width: 600px;
+   padding: 5rem 1rem;
+
+}
+
+
+.blog-opened {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 6rem;
+    max-width: 1440px;
+}
+
+.blog-opened p {
+      font-size: 1.2rem;
+      color: #303030;
+   }
+
+
+
+.review-content span {
+    color: black;
+    font-weight: bold;
+}
