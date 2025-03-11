@@ -179,4 +179,8 @@
    .card {
       margin: 1rem 1rem;
    }
+   .card-section-header {
+      margin-bottom: 4rem;
+   }
+   
 }
