@@ -50,3 +50,9 @@
     color: black;
     font-weight: bold;
 }
+
+@media (max-width: 767px) {
+    .blog-grid {
+        flex-direction: column;
+    }
+ }
