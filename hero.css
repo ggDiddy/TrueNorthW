@@ -58,3 +58,9 @@
    box-shadow: white 0px 0px 4px;
    transition: .3s ease-in-out;
 }
+
+@media (max-width: 767px) {
+   .hero h1 {
+      font-size: 5rem;
+   }
+}
