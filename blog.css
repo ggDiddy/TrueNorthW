@@ -51,9 +51,19 @@
     font-weight: bold;
 }
 
+@media (max-width: 1150px) {
+    .blog-grid {
+        flex-direction: column;
+        margin: 0 auto;
+        
+        align-items: center;
+    }
+ }
+
 @media (max-width: 767px) {
     .blog-grid {
         flex-direction: column;
-        margrin: 0 auto;
     }
  }
+
+
